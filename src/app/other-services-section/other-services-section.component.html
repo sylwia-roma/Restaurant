@@ -1,0 +1,24 @@
+<div class="section bg-white services-section" data-aos="fade-up">
+    <div class="container">
+      <div class="row section-heading justify-content-center mb-5">
+        <div class="col-md-8 text-center">
+          <h2 class="heading mb-3">{{other_services.heading}}</h2>  
+        </div>
+      </div>
+      <div class="row">
+
+        <div class="col-m mb-5d-6 col-lg-4" data-aos="fade-up" *ngFor="let service of services">
+          <div class="media feature-icon d-block text-center">
+            <div class="icon">
+              <span class="{services.icon}"></span>
+            </div>
+            <div class="media-body">
+              <h3>{{services.tagline}}</h3>
+              <p>{{services.description}}</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>

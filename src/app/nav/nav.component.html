@@ -1,0 +1,11 @@
+<nav class="site-menu" id="ftco-navbar-spy">
+    <div class="site-menu-inner" id="ftco-navbar">
+      <ul class="list-unstyled">
+        <li><a routerLink="/Home" (click)="getActiveTab('Home')" [class.active]="activetab === 'Home'">Home</a></li>
+        <li><a routerLink="/About" (click)="getActiveTab('About')" [class.active]="activetab === 'About'">About Us</a></li>
+        <li><a routerLink="/Menu" (click)="getActiveTab('Menu')" [class.active]="activetab === 'Menu'">Our Menu</a></li>
+        <li><a routerLink="/Reserve" (click)="getActiveTab('Reserve')" [class.active]="activetab === 'Reserve'">Reserve A Table</a></li>
+        <li><a routerLink="/Contact" (click)="getActiveTab('Contact)" [class.active]="activetab === 'Contact'">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
